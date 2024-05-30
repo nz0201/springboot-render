@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/calculator.css">
+    <script src="/js/script.js" defer></script>
+</head>
+
+<body>
+    <div id="white-box" class="flex-container">
+        <h2>Grade Calculator</h2>
+        <div id="blue-box" class="flex-container">
+            <h3>Activities</h3>
+            <h4>Give grades to the numeric activities:</h4>
+
+            <table id="table">
+                <tr>
+                    <th>Name</th>
+                    <th>Short Name</th>
+                    <th>Weight</th>
+                    <th>Grade</th>
+                    <th>Percent</th>
+                </tr>
+                <tr>
+                    <td>Activity 1</td>
+                    <td>A1</td>
+                    <td><input class="weight" type="number" value=""></td>
+                    <td><input class="grade" type="number" value=""> / <input class="grade" type="number" value=""></td>
+                    <td class="percent"> </td>
+                </tr>
+                <tr>
+                    <td>Activity 2</td>
+                    <td>A2</td>
+                    <td><input class="weight" type="number" value=""></td>
+                    <td><input class="grade" type="number" value=""> / <input class="grade" type="number" value=""></td>
+                    <td class="percent"> </td>
+                </tr>
+            </table>
+
+            <div>
+               <button id="addRowButton" onClick="addRow()">ADD ROW</button>
+            </div>
+            
+            <h3 id="result">Result</h3>
+            <p id="underResult"> </p>
+
+            <div id="rightButtons">
+                <button id="weightedButton" onClick="calculateWeighted()">WEIGHTED</button>
+                <button id="meanButton" onClick="calculateMean()">MEAN</button>
+            </div>
+            
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,114 @@
+body {
+    background-color: #a6192e;
+}
+
+#white-box {
+    width: auto;
+    height: auto;
+    margin: 0 50px 0 50px;
+    border-top: 40px solid #3d3935;
+    border-bottom: 40px solid #3d3935;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0.1, 0, 0.1);
+}
+
+#blue-box {
+    width: auto;
+    height: auto;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    margin-right: 350px;
+    background-color: #e9eff1;
+    border: 1px solid #d2e1e6;
+    border-radius: 3px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    margin-left: 30px;
+    margin-top: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+    color: #a6192e;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h4 {
+    margin-left: 10px;
+    margin-bottom: 30px;
+    font-weight: lighter;
+}
+
+table,
+th,
+td {
+    border: 1px solid #bcbabc;
+    padding: 8px;
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+th {
+    background-color: #dddddd;
+}
+
+table {
+    border-collapse: collapse;
+    width: 98%;
+    table-layout: fixed;
+    margin-left: 1%;
+    margin-bottom: 1%;
+}
+
+.weight,
+.grade {
+    width: 50px;
+    height: 30px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#addRowButton {
+    margin-top: 9px;
+    width: auto;
+    margin-left: 13px;
+}
+
+#weightedButton,
+#meanButton {
+    background-color: #a6192e;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    height: 30px;
+    width: 90px;
+    margin-bottom: 20px; 
+    margin-right: 20px;
+}
+
+#rightButtons {
+    display: flex;
+    justify-content: right; 
+} 
+
+#result {
+    margin-top: 10px;
+}
+
+#underResult {
+    margin-left: 10px;
+}
+
+
