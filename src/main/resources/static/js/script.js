@@ -1,6 +1,6 @@
 
 //add row
-var count = 2;
+var count = 1;
 
 function addRow() {
   var table = document.querySelector('table');
@@ -53,7 +53,7 @@ table.addEventListener('input', function (event) {
 function getActivityData() {
   var inputs = document.querySelectorAll('td input');
 
-  var activityDatas = [];
+  var activityDatas = []; 
 
   for (var i = 0; i < inputs.length; i += 3) {
     var data = {
